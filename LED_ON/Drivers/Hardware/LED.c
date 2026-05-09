@@ -1,10 +1,5 @@
 #include"gpio.h"
 
-void LED_Init()
-{
-    MX_GPIO_Init();
-}
-
 void LED_ON()
 {
     HAL_GPIO_WritePin(GPIOA, GPIO_PIN_1, GPIO_PIN_SET);
