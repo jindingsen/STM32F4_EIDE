@@ -18,8 +18,8 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "usart.h"
 #include "gpio.h"
-#include "LED.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -55,7 +55,7 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+char sendbuff[] = "hello\r\n";
 /* USER CODE END 0 */
 
 /**
@@ -86,7 +86,8 @@ int main(void)
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
-  LED_Init();
+  MX_GPIO_Init();
+  MX_USART6_UART_Init();
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */
@@ -96,8 +97,11 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-    LED_ON();
+
     /* USER CODE BEGIN 3 */
+    Mobaxterm_Send(sendbuff);
+    
+
   }
   /* USER CODE END 3 */
 }
