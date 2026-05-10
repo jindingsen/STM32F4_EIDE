@@ -18,12 +18,15 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "tim.h"
 #include "usart.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "Mobaxterm.h"
+#include "LED.h"
+#include "MyTimer.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -56,6 +59,8 @@ void SystemClock_Config(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 char sendbuff[] = "hello\r\n";
+uint32_t Count = 0;
+uint32_t Sys = 0;
 /* USER CODE END 0 */
 
 /**
@@ -88,8 +93,9 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_USART6_UART_Init();
+  MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
-
+  HAL_TIM_Base_Start_IT(&htim2);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -99,8 +105,8 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-    Mobaxterm_Send(sendbuff);
-    
+    Mobaxterm_SendData(Sys);
+
 
   }
   /* USER CODE END 3 */
@@ -152,7 +158,18 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
-
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef* htim)
+{
+    if(htim->Instance == TIM2)
+    {
+      Count++;
+      if(Count == 1000)
+      {
+        Sys += 1;
+        Count = 0;
+      }
+    }
+}
 /* USER CODE END 4 */
 
 /**
