@@ -60,6 +60,7 @@ void SystemClock_Config(void);
 /* USER CODE BEGIN 0 */
 char sendbuff[] = "hello\r\n";
 uint32_t Count = 0;
+uint32_t Sys = 0;
 /* USER CODE END 0 */
 
 /**
@@ -94,7 +95,7 @@ int main(void)
   MX_USART6_UART_Init();
   MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
-  HAL_TIM_Base_Start(&htim2);
+  HAL_TIM_Base_Start_IT(&htim2);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -102,9 +103,9 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-    Count = MyTimer_Getcount();
+
     /* USER CODE BEGIN 3 */
-    Mobaxterm_SendData(Count);
+    Mobaxterm_SendData(Sys);
 
 
   }
@@ -157,7 +158,18 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
-
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef* htim)
+{
+    if(htim->Instance == TIM2)
+    {
+      Count++;
+      if(Count == 1000)
+      {
+        Sys += 1;
+        Count = 0;
+      }
+    }
+}
 /* USER CODE END 4 */
 
 /**
