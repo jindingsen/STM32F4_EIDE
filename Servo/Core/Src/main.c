@@ -26,6 +26,7 @@
 /* USER CODE BEGIN Includes */
 #include "Key.h"
 #include "LED.h"
+#include "Mobaxterm.h"
 
 /* USER CODE END Includes */
 
@@ -59,6 +60,7 @@ void SystemClock_Config(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 uint8_t Key_Num = 0;
+char sendbuff[] = "hello";
 /* USER CODE END 0 */
 
 /**
@@ -92,7 +94,7 @@ int main(void)
   MX_GPIO_Init();
   MX_USART6_UART_Init();
   /* USER CODE BEGIN 2 */
-
+  
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -107,7 +109,7 @@ int main(void)
     {
       LED_Turn();
     }
-
+    Mobaxterm_SendChar(sendbuff);
   }
   /* USER CODE END 3 */
 }
