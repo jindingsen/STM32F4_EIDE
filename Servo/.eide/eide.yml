@@ -56,6 +56,8 @@ virtualFolder:
             - path: Drivers/Hardware/LED.h
             - path: Drivers/Hardware/Key.c
             - path: Drivers/Hardware/Key.h
+            - path: Drivers/Hardware/Mobaxterm.c
+            - path: Drivers/Hardware/Mobaxterm.h
           folders: []
 dependenceList: []
 outDir: build
@@ -68,6 +70,7 @@ targets:
         - USE_HAL_DRIVER
         - STM32F407xx
       incList:
+        - .
         - Core/Inc
         - Drivers/STM32F4xx_HAL_Driver/Inc
         - Drivers/STM32F4xx_HAL_Driver/Inc/Legacy

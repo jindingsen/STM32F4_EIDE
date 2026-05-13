@@ -1,0 +1,469 @@
+[2026-05-09 14:53:01]	[info] incremental build: 19 source files changed
+These source files will be recompiled
+---
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\gpio.c': object (.o) file not exist
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\main.c': object (.o) file not exist
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\stm32f4xx_hal_msp.c': object (.o) file not exist
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\stm32f4xx_it.c': object (.o) file not exist
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\system_stm32f4xx.c': object (.o) file not exist
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c': object (.o) file not exist
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c': object (.o) file not exist
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c': object (.o) file not exist
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c': object (.o) file not exist
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c': object (.o) file not exist
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c': object (.o) file not exist
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c': object (.o) file not exist
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c': object (.o) file not exist
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c': object (.o) file not exist
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c': object (.o) file not exist
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c': object (.o) file not exist
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c': object (.o) file not exist
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c': object (.o) file not exist
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\MDK-ARM\startup_stm32f407xx.s': object (.o) file not exist
+
+[2026-05-09 14:53:01]	[done]
+	build successfully !
+
+[2026-05-09 15:04:52]	[info] incremental build: 20 source files changed
+These source files will be recompiled
+---
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\gpio.c': source file has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\main.c': source file has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\stm32f4xx_hal_msp.c': compiler options has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\stm32f4xx_it.c': compiler options has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\system_stm32f4xx.c': compiler options has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\Hardware\LED.c': object (.o) file not exist
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c': compiler options has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c': compiler options has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c': compiler options has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c': compiler options has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c': compiler options has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c': compiler options has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c': compiler options has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c': compiler options has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c': compiler options has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c': compiler options has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c': compiler options has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c': compiler options has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c': compiler options has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\MDK-ARM\startup_stm32f407xx.s': compiler options has been changed.
+
+[2026-05-09 15:04:53]	[done]
+	build successfully !
+
+[2026-05-09 15:05:17]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\main.c': source file has been changed.
+
+[2026-05-09 15:05:17]	[done]
+	build successfully !
+
+[2026-05-09 15:05:31]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\main.c': source file has been changed.
+
+[2026-05-09 15:05:31]	[done]
+	build successfully !
+
+[2026-05-09 15:06:11]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\main.c': source file has been changed.
+
+[2026-05-09 15:06:11]	[done]
+	build successfully !
+
+[2026-05-09 15:21:34]	[done]
+	build successfully !
+
+[2026-05-09 16:10:54]	[info] incremental build: 20 source files changed
+These source files will be recompiled
+---
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\gpio.c': source file has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\main.c': source file has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\stm32f4xx_hal_msp.c': dependence 'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Inc\stm32f4xx_hal_conf.h' has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\stm32f4xx_it.c': dependence 'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Inc\stm32f4xx_hal_conf.h' has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\system_stm32f4xx.c': dependence 'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Inc\stm32f4xx_hal_conf.h' has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\Hardware\LED.c': source file has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c': dependence 'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Inc\stm32f4xx_hal_conf.h' has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c': dependence 'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Inc\stm32f4xx_hal_conf.h' has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c': dependence 'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Inc\stm32f4xx_hal_conf.h' has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c': dependence 'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Inc\stm32f4xx_hal_conf.h' has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c': dependence 'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Inc\stm32f4xx_hal_conf.h' has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c': dependence 'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Inc\stm32f4xx_hal_conf.h' has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c': dependence 'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Inc\stm32f4xx_hal_conf.h' has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c': dependence 'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Inc\stm32f4xx_hal_conf.h' has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c': dependence 'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Inc\stm32f4xx_hal_conf.h' has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c': dependence 'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Inc\stm32f4xx_hal_conf.h' has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c': dependence 'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Inc\stm32f4xx_hal_conf.h' has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c': dependence 'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Inc\stm32f4xx_hal_conf.h' has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c': dependence 'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Inc\stm32f4xx_hal_conf.h' has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\MDK-ARM\startup_stm32f407xx.s': source file has been changed.
+
+[2026-05-09 16:10:55]	link failed !, exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+Error: L6218E: Undefined symbol MX_USART2_UART_Init (referred from main.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 1 error messages.
+
+
+[2026-05-09 16:12:39]	link failed !, exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+Error: L6218E: Undefined symbol MX_USART2_UART_Init (referred from main.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 1 error messages.
+
+
+[2026-05-09 16:17:05]	[info] incremental build: 21 source files changed
+These source files will be recompiled
+---
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\gpio.c': compiler options has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\main.c': compiler options has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\stm32f4xx_hal_msp.c': compiler options has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\stm32f4xx_it.c': compiler options has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\system_stm32f4xx.c': compiler options has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\usart.c': object (.o) file not exist
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c': compiler options has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c': compiler options has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c': compiler options has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c': compiler options has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c': compiler options has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c': compiler options has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c': compiler options has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c': compiler options has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c': compiler options has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c': compiler options has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c': compiler options has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c': compiler options has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c': compiler options has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c': object (.o) file not exist
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\MDK-ARM\startup_stm32f407xx.s': compiler options has been changed.
+
+[2026-05-09 16:17:06]	link failed !, exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+Error: L6406E: No space in execution regions with .ANY selector matching startup_stm32f407xx.o(STACK).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_hal_rcc.o(i.HAL_RCC_OscConfig).
+Error: L6406E: No space in execution regions with .ANY selector matching startup_stm32f407xx.o(HEAP).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_hal_gpio.o(i.HAL_GPIO_Init).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_hal_rcc.o(i.HAL_RCC_ClockConfig).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_hal_uart.o(i.UART_SetConfig).
+Error: L6406E: No space in execution regions with .ANY selector matching lludivv7m.o(.text).
+Error: L6406E: No space in execution regions with .ANY selector matching main.o(i.SystemClock_Config).
+Error: L6406E: No space in execution regions with .ANY selector matching usart.o(i.HAL_UART_MspInit).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_hal_uart.o(i.HAL_UART_Init).
+Error: L6406E: No space in execution regions with .ANY selector matching gpio.o(i.MX_GPIO_Init).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_hal_rcc.o(i.HAL_RCC_GetSysClockFreq).
+Error: L6406E: No space in execution regions with .ANY selector matching libspace.o(.bss).
+Error: L6406E: No space in execution regions with .ANY selector matching rt_memclr_w.o(.text).
+Error: L6406E: No space in execution regions with .ANY selector matching sys_stackheap_outer.o(.text).
+Error: L6406E: No space in execution regions with .ANY selector matching usart.o(.bss).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_hal.o(i.HAL_InitTick).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_hal_cortex.o(i.HAL_NVIC_SetPriority).
+Error: L6406E: No space in execution regions with .ANY selector matching startup_stm32f407xx.o(.text).
+Error: L6406E: No space in execution regions with .ANY selector matching usart.o(i.MX_USART2_UART_Init).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_hal.o(i.HAL_Init).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_hal_msp.o(i.HAL_MspInit).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_hal_cortex.o(i.HAL_SYSTICK_Config).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_hal_cortex.o(i.HAL_NVIC_SetPriorityGrouping).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_hal_cortex.o(i.__NVIC_SetPriority).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_hal_rcc.o(i.HAL_RCC_GetPCLK1Freq).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_hal_rcc.o(i.HAL_RCC_GetPCLK2Freq).
+Error: L6406E: No space in execution regions with .ANY selector matching main.o(i.main).
+Error: L6406E: No space in execution regions with .ANY selector matching exit.o(.text).
+Error: L6406E: No space in execution regions with .ANY selector matching system_stm32f4xx.o(i.SystemInit).
+Error: L6406E: No space in execution regions with .ANY selector matching system_stm32f4xx.o(.constdata).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_hal.o(i.HAL_IncTick).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_hal.o(i.HAL_GetTick).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_hal.o(.data).
+Error: L6406E: No space in execution regions with .ANY selector matching sys_exit.o(.text).
+Error: L6406E: No space in execution regions with .ANY selector matching fpinit.o(x$fpl$fpinit).
+Error: L6406E: No space in execution regions with .ANY selector matching system_stm32f4xx.o(.constdata).
+Error: L6406E: No space in execution regions with .ANY selector matching __rtentry2.o(.ARM.Collect$$rtentry$$0000000D).
+Error: L6406E: No space in execution regions with .ANY selector matching libspace.o(.text).
+Error: L6406E: No space in execution regions with .ANY selector matching heapauxi.o(.text).
+Error: L6406E: No space in execution regions with .ANY selector matching rtexit2.o(.ARM.Collect$$rtexit$$00000004).
+Error: L6406E: No space in execution regions with .ANY selector matching main.o(i.Error_Handler).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_it.o(i.SysTick_Handler).
+Error: L6406E: No space in execution regions with .ANY selector matching system_stm32f4xx.o(.data).
+Error: L6406E: No space in execution regions with .ANY selector matching libinit2.o(.ARM.Collect$$libinit$$00000001).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_it.o(i.BusFault_Handler).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_it.o(i.DebugMon_Handler).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_it.o(i.HardFault_Handler).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_it.o(i.MemManage_Handler).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_it.o(i.NMI_Handler).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_it.o(i.PendSV_Handler).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_it.o(i.SVC_Handler).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_it.o(i.UsageFault_Handler).
+Error: L6406E: No space in execution regions with .ANY selector matching use_no_semi.o(.text).
+Error: L6406E: No space in execution regions with .ANY selector matching libshutdown.o(.ARM.Collect$$libshutdown$$00000000).
+Error: L6406E: No space in execution regions with .ANY selector matching indicate_semi.o(.text).
+Error: L6407E: Sections of aggregate size 0x14fc bytes could not fit into .ANY selector(s).
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning and 57 error messages.
+
+
+[2026-05-09 16:24:41]	link failed !, exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+Error: L6406E: No space in execution regions with .ANY selector matching startup_stm32f407xx.o(STACK).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_hal_rcc.o(i.HAL_RCC_OscConfig).
+Error: L6406E: No space in execution regions with .ANY selector matching startup_stm32f407xx.o(HEAP).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_hal_gpio.o(i.HAL_GPIO_Init).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_hal_rcc.o(i.HAL_RCC_ClockConfig).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_hal_uart.o(i.UART_SetConfig).
+Error: L6406E: No space in execution regions with .ANY selector matching lludivv7m.o(.text).
+Error: L6406E: No space in execution regions with .ANY selector matching main.o(i.SystemClock_Config).
+Error: L6406E: No space in execution regions with .ANY selector matching usart.o(i.HAL_UART_MspInit).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_hal_uart.o(i.HAL_UART_Init).
+Error: L6406E: No space in execution regions with .ANY selector matching gpio.o(i.MX_GPIO_Init).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_hal_rcc.o(i.HAL_RCC_GetSysClockFreq).
+Error: L6406E: No space in execution regions with .ANY selector matching libspace.o(.bss).
+Error: L6406E: No space in execution regions with .ANY selector matching rt_memclr_w.o(.text).
+Error: L6406E: No space in execution regions with .ANY selector matching sys_stackheap_outer.o(.text).
+Error: L6406E: No space in execution regions with .ANY selector matching usart.o(.bss).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_hal.o(i.HAL_InitTick).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_hal_cortex.o(i.HAL_NVIC_SetPriority).
+Error: L6406E: No space in execution regions with .ANY selector matching startup_stm32f407xx.o(.text).
+Error: L6406E: No space in execution regions with .ANY selector matching usart.o(i.MX_USART2_UART_Init).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_hal.o(i.HAL_Init).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_hal_msp.o(i.HAL_MspInit).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_hal_cortex.o(i.HAL_SYSTICK_Config).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_hal_cortex.o(i.HAL_NVIC_SetPriorityGrouping).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_hal_cortex.o(i.__NVIC_SetPriority).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_hal_rcc.o(i.HAL_RCC_GetPCLK1Freq).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_hal_rcc.o(i.HAL_RCC_GetPCLK2Freq).
+Error: L6406E: No space in execution regions with .ANY selector matching main.o(i.main).
+Error: L6406E: No space in execution regions with .ANY selector matching exit.o(.text).
+Error: L6406E: No space in execution regions with .ANY selector matching system_stm32f4xx.o(i.SystemInit).
+Error: L6406E: No space in execution regions with .ANY selector matching system_stm32f4xx.o(.constdata).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_hal.o(i.HAL_IncTick).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_hal.o(i.HAL_GetTick).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_hal.o(.data).
+Error: L6406E: No space in execution regions with .ANY selector matching sys_exit.o(.text).
+Error: L6406E: No space in execution regions with .ANY selector matching fpinit.o(x$fpl$fpinit).
+Error: L6406E: No space in execution regions with .ANY selector matching system_stm32f4xx.o(.constdata).
+Error: L6406E: No space in execution regions with .ANY selector matching __rtentry2.o(.ARM.Collect$$rtentry$$0000000D).
+Error: L6406E: No space in execution regions with .ANY selector matching libspace.o(.text).
+Error: L6406E: No space in execution regions with .ANY selector matching heapauxi.o(.text).
+Error: L6406E: No space in execution regions with .ANY selector matching rtexit2.o(.ARM.Collect$$rtexit$$00000004).
+Error: L6406E: No space in execution regions with .ANY selector matching main.o(i.Error_Handler).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_it.o(i.SysTick_Handler).
+Error: L6406E: No space in execution regions with .ANY selector matching system_stm32f4xx.o(.data).
+Error: L6406E: No space in execution regions with .ANY selector matching libinit2.o(.ARM.Collect$$libinit$$00000001).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_it.o(i.BusFault_Handler).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_it.o(i.DebugMon_Handler).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_it.o(i.HardFault_Handler).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_it.o(i.MemManage_Handler).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_it.o(i.NMI_Handler).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_it.o(i.PendSV_Handler).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_it.o(i.SVC_Handler).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32f4xx_it.o(i.UsageFault_Handler).
+Error: L6406E: No space in execution regions with .ANY selector matching use_no_semi.o(.text).
+Error: L6406E: No space in execution regions with .ANY selector matching libshutdown.o(.ARM.Collect$$libshutdown$$00000000).
+Error: L6406E: No space in execution regions with .ANY selector matching indicate_semi.o(.text).
+Error: L6407E: Sections of aggregate size 0x14fc bytes could not fit into .ANY selector(s).
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning and 57 error messages.
+
+
+[2026-05-09 16:26:47]	link failed !, exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+Error: L6218E: Undefined symbol LED_ON (referred from main.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 1 error messages.
+
+
+[2026-05-09 16:29:08]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\Hardware\LED.c': source file has been changed.
+
+[2026-05-09 16:29:09]	[done]
+	build successfully !
+
+[2026-05-09 16:33:32]	[info] incremental build: 2 source files changed
+These source files will be recompiled
+---
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\main.c': source file has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\Hardware\Mobaxterm.c': object (.o) file not exist
+
+[2026-05-09 16:33:32]	[done]
+	build successfully !
+
+[2026-05-09 16:50:16]	[info] incremental build: 2 source files changed
+These source files will be recompiled
+---
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\main.c': source file has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\Hardware\Mobaxterm.c': source file has been changed.
+
+[2026-05-09 16:50:16]	[done]
+	build successfully !
+
+[2026-05-09 17:05:43]	[info] incremental build: 5 source files changed
+These source files will be recompiled
+---
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\gpio.c': source file has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\main.c': source file has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\usart.c': source file has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\Hardware\Mobaxterm.c': source file has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\MDK-ARM\startup_stm32f407xx.s': source file has been changed.
+
+[2026-05-09 17:05:43]	[done]
+	build successfully !
+
+[2026-05-09 17:08:17]	[info] incremental build: 2 source files changed
+These source files will be recompiled
+---
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\main.c': source file has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\Hardware\Mobaxterm.c': source file has been changed.
+
+[2026-05-09 17:08:18]	[done]
+	build successfully !
+
+[2026-05-09 21:25:28]	[info] incremental build: 24 source files changed
+These source files will be recompiled
+---
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\gpio.c': dependence 'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Inc\stm32f4xx_hal_conf.h' has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\main.c': source file has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\stm32f4xx_hal_msp.c': dependence 'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Inc\stm32f4xx_hal_conf.h' has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\stm32f4xx_it.c': dependence 'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Inc\stm32f4xx_hal_conf.h' has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\system_stm32f4xx.c': dependence 'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Inc\stm32f4xx_hal_conf.h' has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\tim.c': object (.o) file not exist
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\usart.c': dependence 'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Inc\stm32f4xx_hal_conf.h' has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\Hardware\LED.c': dependence 'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Inc\stm32f4xx_hal_conf.h' has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\Hardware\Mobaxterm.c': dependence 'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Inc\stm32f4xx_hal_conf.h' has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c': dependence 'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Inc\stm32f4xx_hal_conf.h' has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c': dependence 'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Inc\stm32f4xx_hal_conf.h' has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c': dependence 'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Inc\stm32f4xx_hal_conf.h' has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c': dependence 'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Inc\stm32f4xx_hal_conf.h' has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c': dependence 'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Inc\stm32f4xx_hal_conf.h' has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c': dependence 'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Inc\stm32f4xx_hal_conf.h' has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c': dependence 'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Inc\stm32f4xx_hal_conf.h' has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c': dependence 'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Inc\stm32f4xx_hal_conf.h' has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c': dependence 'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Inc\stm32f4xx_hal_conf.h' has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c': dependence 'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Inc\stm32f4xx_hal_conf.h' has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c': dependence 'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Inc\stm32f4xx_hal_conf.h' has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c': dependence 'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Inc\stm32f4xx_hal_conf.h' has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c': dependence 'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Inc\stm32f4xx_hal_conf.h' has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c': dependence 'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Inc\stm32f4xx_hal_conf.h' has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\MDK-ARM\startup_stm32f407xx.s': source file has been changed.
+
+[2026-05-09 21:25:28]	link failed !, exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+Error: L6218E: Undefined symbol HAL_TIMEx_MasterConfigSynchronization (referred from tim.o).
+Error: L6218E: Undefined symbol HAL_TIM_Base_Init (referred from tim.o).
+Error: L6218E: Undefined symbol HAL_TIM_ConfigClockSource (referred from tim.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 3 error messages.
+
+
+[2026-05-09 21:28:04]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\main.c': source file has been changed.
+
+[2026-05-09 21:28:04]	link failed !, exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+Error: L6218E: Undefined symbol HAL_TIMEx_MasterConfigSynchronization (referred from tim.o).
+Error: L6218E: Undefined symbol HAL_TIM_Base_Init (referred from tim.o).
+Error: L6218E: Undefined symbol HAL_TIM_ConfigClockSource (referred from tim.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 3 error messages.
+
+
+[2026-05-09 21:31:28]	link failed !, exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+Error: L6218E: Undefined symbol HAL_TIMEx_MasterConfigSynchronization (referred from tim.o).
+Error: L6218E: Undefined symbol HAL_TIM_Base_Init (referred from tim.o).
+Error: L6218E: Undefined symbol HAL_TIM_ConfigClockSource (referred from tim.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 3 error messages.
+
+
+[2026-05-09 21:32:56]	[info] incremental build: 2 source files changed
+These source files will be recompiled
+---
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c': object (.o) file not exist
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c': object (.o) file not exist
+
+[2026-05-09 21:32:57]	[done]
+	build successfully !
+
+[2026-05-09 21:58:08]	[info] incremental build: 2 source files changed
+These source files will be recompiled
+---
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\main.c': source file has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\Hardware\Mobaxterm.c': source file has been changed.
+
+[2026-05-09 21:58:08]	link failed !, exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+Error: L6218E: Undefined symbol MyTimer_Getcount (referred from main.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 1 error messages.
+
+
+[2026-05-09 21:59:06]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\Hardware\MyTimer.c': object (.o) file not exist
+
+[2026-05-09 21:59:07]	[done]
+	build successfully !
+
+[2026-05-09 21:59:32]	[done]
+	build successfully !
+
+[2026-05-09 22:04:09]	[info] incremental build: 2 source files changed
+These source files will be recompiled
+---
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\main.c': source file has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\Hardware\Mobaxterm.c': source file has been changed.
+
+[2026-05-09 22:04:09]	[done]
+	build successfully !
+
+[2026-05-09 22:07:51]	[info] incremental build: 3 source files changed
+These source files will be recompiled
+---
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\main.c': dependence 'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\Hardware\Mobaxterm.h' has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\tim.c': source file has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Drivers\Hardware\Mobaxterm.c': source file has been changed.
+
+[2026-05-09 22:07:51]	[done]
+	build successfully !
+
+[2026-05-09 22:28:25]	[done]
+	build successfully !
+
+[2026-05-10 15:06:52]	[info] incremental build: 4 source files changed
+These source files will be recompiled
+---
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\main.c': source file has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\stm32f4xx_it.c': source file has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\tim.c': source file has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\MDK-ARM\startup_stm32f407xx.s': source file has been changed.
+
+[2026-05-10 15:06:53]	[done]
+	build successfully !
+
+[2026-05-10 15:12:39]	[info] incremental build: 2 source files changed
+These source files will be recompiled
+---
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\main.c': source file has been changed.
+'c:\Users\Lenovo\Desktop\STM32F4_EIDE\LED_ON\Core\Src\tim.c': source file has been changed.
+
+[2026-05-10 15:12:40]	[done]
+	build successfully !
+
