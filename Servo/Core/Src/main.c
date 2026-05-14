@@ -18,15 +18,16 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "tim.h"
 #include "usart.h"
 #include "gpio.h"
-
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "Key.h"
 #include "LED.h"
 #include "Mobaxterm.h"
+#include "Servo.h"
 
 /* USER CODE END Includes */
 
@@ -60,7 +61,7 @@ void SystemClock_Config(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 uint8_t Key_Num = 0;
-char sendbuff[] = "hello";
+char sendbuff[] = "hello\r\n";
 /* USER CODE END 0 */
 
 /**
@@ -93,8 +94,9 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_USART6_UART_Init();
+  MX_TIM4_Init();
   /* USER CODE BEGIN 2 */
-  
+  HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_1);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -102,14 +104,16 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-   
+
     /* USER CODE BEGIN 3 */
-    Key_Num = Read_KeyNum();
+    /* Key_Num = Read_KeyNum();
     if(Key_Num)
     {
       LED_Turn();
     }
-    Mobaxterm_SendChar(sendbuff);
+    Mobaxterm_SendChar(sendbuff); */
+    __HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_1, 50);
+
   }
   /* USER CODE END 3 */
 }

@@ -25,6 +25,7 @@ virtualFolder:
                 - path: Core/Src/usart.c
                 - path: Core/Src/stm32f4xx_it.c
                 - path: Core/Src/stm32f4xx_hal_msp.c
+                - path: Core/Src/tim.c
               folders: []
     - name: Drivers
       files: []
@@ -45,6 +46,8 @@ virtualFolder:
             - path: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
             - path: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
             - path: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
+            - path: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
+            - path: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
           folders: []
         - name: CMSIS
           files:
@@ -58,6 +61,8 @@ virtualFolder:
             - path: Drivers/Hardware/Key.h
             - path: Drivers/Hardware/Mobaxterm.c
             - path: Drivers/Hardware/Mobaxterm.h
+            - path: Drivers/Hardware/Servo.c
+            - path: Drivers/Hardware/Servo.h
           folders: []
 dependenceList: []
 outDir: build
